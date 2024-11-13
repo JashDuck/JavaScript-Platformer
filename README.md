@@ -3,9 +3,9 @@
 A platformer game created using JavaScript
 
 Controls: 
-	W: Jump 
-	A: Left 
-	D: Right
+- W: Jump 
+- A: Left 
+- D: Right
 
 There is wall jumping
 
