@@ -1,0 +1,36 @@
+{
+    "player1" : {
+        "collide" : true,
+        "lives" : 3,
+        "x" : "canvas.width/2 - 20",
+        "y" : "maxScreenHeight - 20",
+        "width" : 40,
+        "height" : 40,
+        "moveSpeed" : 5,
+        "speedX" : 0,
+        "speedY" : 0,
+
+        "source" : "players/stickman.json",
+        "type" : "sprite",
+
+        "spriteFPS" : 25,
+        "spriteCols" : 5,
+        "spriteRows" : 3,
+        "idleFrame" : [0,2],
+    
+        "friction": 0.85,
+        "gravity" : 0.2,
+        "lowGravity" : 0.1,
+        "jumpStrength" : 6,
+        
+        "jumpKeys" : ["w"],
+        "leftKeys" : ["a"],
+        "rightKeys" : ["d"],
+        "boostKeys" : [" "],
+    
+        "dashCooldown" : 500,
+        "dashDuration" : 30,
+        "dashStrength" : 20, 
+        "maxDashes" : 3
+    }
+}

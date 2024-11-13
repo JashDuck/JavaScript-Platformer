@@ -1,0 +1,55 @@
+{
+    "darkGreenBlock" : {
+        "collide" : true,
+        "speedY" : 1,
+        "color" : "#20902f",
+        "type" : "color"
+    },
+    "limeGreenBlock" : {
+        "collide" : false,
+        "gravity" : 0.15,
+        "color" : "#2ff02f",
+        "type" : "color"
+    },
+    "darkBlueBlock" : {
+        "collide" : true,
+        "speedY" : -1,
+        "color" : "#0000ff",
+        "type" : "color"
+    },
+    "gameOverImg" : {
+        "collide" : false,
+        "source" : "/game_over_text.png",
+        "type" : "img",
+        "width" : 440,
+        "height" : 100
+    },
+    "yesButton" : {
+        "collide" : false,
+        "color" : "#ffffff",
+        "text" : "YES",
+        "type" : "text",
+        "button" : "yes",
+        "xOffset" : 20,
+        "yOffset" : 35
+    },
+    "noButton" : {
+        "collide" : false,
+        "color" : "#ffffff",
+        "text" : "NO",
+        "type" : "text",
+        "button" : "no",
+        "xOffset" : 20,
+        "yOffset" : 35
+    },
+    "tooBadText" : {
+        "collide" : false,
+        "color" : "#ffffff",
+        "text" : "Too Bad!",
+        "type" : "text",
+        "width" : 77,
+        "height" : 80,
+        "xOffset" : 180,
+        "yOffset" : 120
+    }
+}

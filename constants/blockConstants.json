@@ -1,0 +1,91 @@
+{
+    "pinkBlock": {
+        "collide": true,
+        "color": "#ff20ff",
+        "type": "color",
+        "height": 10
+    },
+    "blueBlock": {
+        "collide": true,
+        "color": "#2090ff",
+        "type": "color"
+    },
+
+    "catWalk": {
+        "collide": true,
+        "source": "catwalk.png",
+        "type": "img",
+        "height": 10,
+        "imgHeight": 15
+    },
+
+    "leftSpike": {
+        "collide": false,
+        "source": "spikes/spikes_left.png",
+        "type": "img",
+        "killPlayer": true,
+        "width": 20
+    },
+    "rightSpike": {
+        "collide": false,
+        "source": "spikes/spikes_right.png",
+        "type": "img",
+        "killPlayer": true,
+        "width": 20,
+        "xOffset": 20
+    },
+    "ceilingSpike": {
+        "collide": false,
+        "source": "spikes/spikes_ceiling.png",
+        "type": "img",
+        "killPlayer": true,
+        "height": 20
+    },
+    "floorSpike": {
+        "collide": false,
+        "source": "spikes/spikes_floor.png",
+        "type": "img",
+        "killPlayer": true,
+        "height": 20,
+        "yOffset": 20
+    },
+
+    
+    "trampoline": {
+        "collide": true,
+        "color": "brown",
+        "type": "color",
+        "bounce": true,
+        "height": 20,
+        "yOffset": 20
+    },
+
+
+    "prevLevel": {
+        "collide": false,
+        "color": "#000000",
+        "isDoor": true,
+        "doorDirection": 0
+    },
+    "nextLevel": {
+        "collide": false,
+        "color": "#000000",
+        "type": "color",
+        "isDoor": true,
+        "doorDirection": 1
+    },
+    "prevRoom": {
+        "collide": false,
+        "color": "#800000",
+        "type": "color",
+        "isDoor": true,
+        "doorDirection": 2
+    },
+    "nextRoom": {
+        "collide": false,
+        "color": "#800000",
+        "type": "color",
+        "isDoor": true,
+        "doorDirection": 3
+    }
+}

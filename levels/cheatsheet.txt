@@ -1,0 +1,47 @@
+You need a minimum of 13 rows and 13 columns because that is the size of the canvas
+The maximum of rows and collumns is 4,294,967,295 though try to make it reasonable for lag purposes
+Split different rooms into different files unless it doesn't make sense
+
+[
+    [0,0,0,0,0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0,0,0,0,0]
+]
+
+0 : nothing
+
+Level File Cheatsheet
+1 : pinkBlock
+2 : blueBlock
+s : spike
+>> : door to next level (black)
+<< : door to previous level (black)
+> : door to next room (maroon)
+< : door to previous room (maroon)
+
+Entity File Cheatsheet
+1 : downward moving block that you cant collide with (darkGreenBlock)
+2 : falling block (limeGreenBlock)
+3 : upward moving block that you cant collide with (darkBlueBlock)
+
+100 : gameOverImg
+101 : yesButton
+102 : noButton
+103 : tooBadText
+
+Spawn File Cheatsheet
+x : spawn (players)
+b : from another area spawn (players)
+
+level Data File
+level number : number of rooms for that level
