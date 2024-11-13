@@ -1,4 +1,4 @@
-#JavaScript-Platformer
+# JavaScript-Platformer
 
 A platformer game created using JavaScript
 
